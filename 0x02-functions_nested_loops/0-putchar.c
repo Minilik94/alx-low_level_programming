@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
 * main - prints putchar
 * Description - putchar
@@ -8,6 +8,7 @@ int main(void)
 {
 char m[9] = "_putchar";
 int x = 0;
+#include "main.h"
 for(x = 0; x<8; x++)
 {
 _putchar(m[i]);
