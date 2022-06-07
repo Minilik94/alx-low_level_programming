@@ -1,18 +1,17 @@
 #include "main.h"
 /**
-* main - Entry point
-* Return:0
+* main - prints putchar
+* Description - putchar
+* Return:0 (success)
 */
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
+char m[9] = "_putchar";
+int x = 0;
+for(x = 0; x<8; x++)
+{
+_putchar(m[i]);
+}
 _putchar('\n');
  return (0);
 }
